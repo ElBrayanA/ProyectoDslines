@@ -1,0 +1,195 @@
+@font-face {
+  font-family: MadeInfinity;
+  src: url("./styles/MADEINFINITYPERSONALUSE-Thin.ttf");
+}
+
+
+@font-face {
+  font-family: BEBAS NEUE;
+  src: url("./styles/BebasNeue-Regular.ttf");
+}
+
+
+h1 {
+  color: aliceblue !important;
+  font-family: BEBAS NEUE; 
+  /* font-family: Gunship; */
+}
+
+h2,h4,h5{
+            color: aliceblue !important;
+            font-family: MadeInfinity;
+            
+        }
+
+h3{
+  color: rgb(24, 24, 24);
+  font-family: MadeInfinity;
+}
+
+.h3Blanco{
+  color: aliceblue !important;
+  font-family: MadeInfinity;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center !important; 
+}
+
+.izq{
+  display: flex; 
+  justify-content: left;
+}
+
+.centrarTexto{
+  text-align: center !important; 
+}
+
+.logoDSnav{
+  width:300px;
+}
+
+.contenedor{
+    /* border: 2px solid aliceblue;  */
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow-x: hidden;
+    margin-top: 20px;
+    border-color: aliceblue;
+    background-color: rgb(67, 67, 67);
+
+}
+
+.contenedor2{
+  overflow-x: hidden; 
+  margin-bottom: 10px;
+
+}
+
+.titulo{
+  text-align: left;
+  margin-left: 20px; 
+  margin-top: 20px; 
+  margin-bottom: 30px;
+}
+
+.saltoInput{
+  margin-bottom: 10px;
+}
+
+.saltoInput2{
+  margin-bottom: 20px;
+}
+
+.saltoInput3{
+  margin-bottom: 30px;
+}
+
+.inputLinea{
+  text-align: center;
+}
+
+.nombreCampo{
+  text-align: right;
+}
+
+.btnTutorial{
+  background-color: #ffd146 !important;
+  width: 250px;
+  height: 50px;
+  margin-top: 25px; 
+  margin-bottom: 60px;
+  color: rgb(24, 24, 24) !important;
+}
+
+.btnTutorial:hover{
+  background-color: rgb(24, 24, 24) !important;
+  color:#ffd146 !important;
+}
+
+@media (max-width:930px) {
+  .btnTutorial{
+    width: 130px;
+    height: 35px; 
+    margin-bottom: 40px;
+  }
+  h3{
+    font-size:smaller !important;
+  }
+  
+}
+
+.azul{
+  background-color: #6699FF !important;
+  color: aliceblue !important;
+}
+
+.azul:hover{
+  background-color: #002369 !important;
+}
+
+.rojo{
+  background-color: #ff0000 !important;
+  color: aliceblue !important;
+}
+
+.rojo:hover{
+  background-color: #710000 !important;
+}
+
+
+.porcentajeAlign{
+  justify-content: center; 
+  text-align: right;
+}
+
+.porcentaje{
+  color: rgb(240, 248, 255); 
+  font-family: MadeInfinity;
+}
+
+.dona{
+  width:90% !important; 
+  max-width:400px; 
+  margin-bottom: 40px;
+}
+
+.der{
+  display: flex; 
+  justify-content: right;
+}
+
+.produccionDiaria{
+  width:60%; 
+  height: 30%; 
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.logoYT{
+  width: 30px;
+  height: 30px;
+}
+
+.centrarVertical{
+  align-items: center !important;
+}
+
+.cafe{
+  background-color: #9c8561 !important;
+  color: aliceblue !important;
+  width: 150px;
+  height: 40px;
+  margin-right: 20px; 
+
+} 
+
+.cafe:hover{
+  background-color: #b1ab77 !important;
+} 
+
+.cderecha{
+  justify-content: right !important;
+}
